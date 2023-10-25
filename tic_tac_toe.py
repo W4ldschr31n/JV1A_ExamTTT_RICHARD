@@ -44,6 +44,7 @@ def jouer_symbole(
     max_ligne = DIMENSION_GRILLE - 1
 
     # On récupère les intentions du joueur courant
+    print(f"C'est au tour du joueur avec le symbole {symbole_a_jouer}")
     ligne = int(input(f"Choisissez une ligne (0-{max_ligne}):\n"))
     colonne = int(input(f"Choisissez une colonne (0-{max_colonne}):\n"))
 
