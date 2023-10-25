@@ -40,8 +40,8 @@ def jouer_symbole(
     Sinon, ne joue pas et renvoie False
     """
     # On déduit les coups possibles pour aider à la saisie
-    max_colonne = len(matrix_modele_jeu) - 1
-    max_ligne = len(matrix_modele_jeu[0]) - 1
+    max_colonne = DIMENSION_GRILLE - 1
+    max_ligne = DIMENSION_GRILLE - 1
 
     # On récupère les intentions du joueur courant
     ligne = int(input(f"Choisissez une ligne (0-{max_ligne}):\n"))
